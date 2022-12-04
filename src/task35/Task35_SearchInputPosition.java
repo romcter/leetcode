@@ -22,6 +22,8 @@ public class Task35_SearchInputPosition {
             }
         }
         return 0;
+
+//        return (int) Arrays.stream(nums).filter(n -> n < target).count();
     }
 }
 
